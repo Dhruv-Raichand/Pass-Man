@@ -43,9 +43,10 @@ const Manager = () => {
   };
 
   const savePassword = () => {
-    setpasswordArray([...passwordArray, {...form, id: uuidv4()}]);
-    localStorage.setItem("passwords", JSON.stringify([...passwordArray, {...form, id: uuidv4()}]));
-    console.log(passwordArray);
+  const newPassword = { ...form, id: uuidv4() };
+  const updatedPasswords = [...passwordArray, newPassword];
+  setpasswordArray(updatedPasswords);
+  localStorage.setItem("passwords", JSON.stringify(updatedPasswords));
     setform({ site: "", username: "", password: "" })
     toast("🦄 Password Saved! ", {
       position: "top-right",
@@ -88,7 +89,7 @@ const editPassword = (id)=>{
     setform({ ...form, [e.target.name]: e.target.value });
   };
   return (
-    <>
+    <div className="relative">
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -290,7 +291,7 @@ const editPassword = (id)=>{
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
