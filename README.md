@@ -112,11 +112,12 @@ Open your browser at
 Contributions are welcome.  
 Fork the repository, create a new branch, and submit a pull request.
 
+---
+
 ⚠️ Security Note:  
 Pass-Man is intended for learning purposes only.  
 Passwords are stored in browser LocalStorage without encryption.  
 Do not use it for sensitive or production credentials.
-
 
 ---
 
