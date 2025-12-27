@@ -17,7 +17,7 @@ const Manager = () => {
   }, []);
 
   const copyText = (text) => {
-    toast("🦄 Copied! " + text, {
+    toast("🦄 Copied! " + text + " Successfully", {
       position: "top-right",
       autoClose: 4000,
       hideProgressBar: false,
@@ -214,7 +214,7 @@ const editPassword = (id)=>{
                             <div
                               className="lordiconcopy size-7 cursor-pointer"
                               onClick={() => {
-                                copyText(item.username);
+                                copyText("Username");
                               }}
                             >
                               <lord-icon
@@ -238,7 +238,7 @@ const editPassword = (id)=>{
                             <div
                               className="lordiconcopy size-7 cursor-pointer"
                               onClick={() => {
-                                copyText(item.password);
+                                copyText("Password");
                               }}
                             >
                               <lord-icon
