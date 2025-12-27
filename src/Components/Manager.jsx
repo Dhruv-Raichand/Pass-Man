@@ -108,8 +108,8 @@ const editPassword = (id)=>{
         <div className="p-3 md:container md:px-40 md:py-16 md:mx-auto min-h-[88.2vh]">
           <h1 className="text-4xl font-bold text-center">
             <span className="text-green-500"> &lt;</span>
-            HNJI
-            <span className="text-green-500"> BETA/&gt;</span>
+            PASS
+            <span className="text-green-500"> MAN/&gt;</span>
           </h1>
           <p className="text-green-700 text-lg text-center">
             Your own Password Manager
