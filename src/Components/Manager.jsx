@@ -184,13 +184,13 @@ const editPassword = (id)=>{
                       <tr key={index}>
                         <td className="text-center w-32 py-2 border border-white">
                           <div className="flex justify-center items-center">
-                            <a href={item.site} target="_blank">
+                            <a href={item.site.startsWith("http") ? item.site : `https://${item.site}`} target="_blank" rel="noopener noreferrer">
                               {item.site}
                             </a>
                             <div
                               className="lordiconcopy size-7 cursor-pointer"
                               onClick={() => {
-                                copyText(item.site);
+                                copyText("URL");
                               }}
                             >
                               <lord-icon
