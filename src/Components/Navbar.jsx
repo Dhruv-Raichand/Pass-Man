@@ -7,8 +7,8 @@ const Navbar = () => {
 
       <div className="logo font-bold text-2xl">
         <span className="text-green-500"> &lt;</span>
-        HNJI
-        <span className="text-green-500"> BETA/&gt;</span>
+        PASS
+        <span className="text-green-500"> MAN/&gt;</span>
         </div>
       <button className="text-white bg-green-700 my-5 rounded-full flex justify-between items-center ring-1 ring-white">
         <img className="invert p-1 w-10" src="icons/github.svg" alt="github logo" />
