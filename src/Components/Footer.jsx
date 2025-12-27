@@ -6,12 +6,12 @@ const Footer = () => {
         <div>
         <div className="logo font-bold text-2xl">
         <span className="text-green-500"> &lt;</span>
-        HNJI
-        <span className="text-green-500"> BETA/&gt;</span>
+        PASS
+        <span className="text-green-500"> MAN/&gt;</span>
         </div>
         </div>
         <div className='flex justify-center items-center'>
-      Created with <img className='w-7 mx-2' src="icons/heart.png" alt="" /> by Mahatma Gandhi 
+      Created with <img className='w-7 mx-2' src="icons/heart.png" alt="" /> by Dhruv Raichand 
         </div>
     </div>
   )
