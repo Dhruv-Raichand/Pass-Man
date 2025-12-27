@@ -208,9 +208,9 @@ const editPassword = (id)=>{
                         </td>
                         <td className="text-center w-32 py-2 border border-white">
                           <div className="flex justify-center items-center">
-                            <a href={item.username} target="_blank">
+                            <span>
                               {item.username}
-                            </a>
+                            </span>
                             <div
                               className="lordiconcopy size-7 cursor-pointer"
                               onClick={() => {
@@ -232,9 +232,9 @@ const editPassword = (id)=>{
                         </td>
                         <td className="text-center w-32 py-2 border border-white">
                           <div className="flex justify-center items-center">
-                            <a href={item.password} target="_blank">
-                              {item.password}
-                            </a>
+                            <span>
+                              {"*".repeat(item.password.length)}
+                            </span>
                             <div
                               className="lordiconcopy size-7 cursor-pointer"
                               onClick={() => {
