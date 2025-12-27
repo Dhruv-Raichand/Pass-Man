@@ -1,7 +1,15 @@
 # 🔐 Pass-Man: Password Manager
 
+## 📖 About
 Pass-Man is a lightweight, browser-based password manager built with React and Vite.  
-It helps users generate, store, and manage credentials locally using a clean and intuitive interface.
+It was created as a learning project to explore modern frontend tooling and secure client-side storage.  
+Unlike traditional password managers, Pass-Man is **privacy-first**: all credentials are stored locally in your browser.
+
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Build with Vite](https://img.shields.io/badge/build-vite-blue)
+![React](https://img.shields.io/badge/react-18-blue)
+
 
 Note: This is a client-side project intended for learning and portfolio purposes.
 
@@ -22,6 +30,9 @@ Note: This is a client-side project intended for learning and portfolio purposes
 -   React (UI library)
 -   Vite (build tool)
 -   JavaScript
+-   TailwindCSS (styling)
+-   React-Toastify (notifications)
+-   UUID (unique IDs for entries)
 -   ESLint
 -   Browser LocalStorage
 
@@ -100,6 +111,12 @@ Open your browser at
 
 Contributions are welcome.  
 Fork the repository, create a new branch, and submit a pull request.
+
+⚠️ Security Note:  
+Pass-Man is intended for learning purposes only.  
+Passwords are stored in browser LocalStorage without encryption.  
+Do not use it for sensitive or production credentials.
+
 
 ---
 
